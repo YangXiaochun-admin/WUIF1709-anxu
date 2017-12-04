@@ -145,8 +145,103 @@ header{
 	float: left;
 	margin-left: 190px;
 }
+.navka{
+	width: 100%;
+	height: 0px;
+	background: #fff;
+	border-top: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	position: absolute;
+	top:260px;
+    z-index: 500;
+    left: 0px;
+	display:flex;
+	overflow: hidden;
+	transition: 0.3s;
 
-
+}
+.navlist{
+	width: 160px;
+	height: 190px;
+	/* background:#a3a8ab; */
+	z-index: 60;
+	margin-left:80px;
+	padding-top: 20px;
+	overflow: hidden;
+	float: left;
+}
+.navlist1{
+	width: 155px;
+	height: 190px;
+	/*background:#a3a8ab;*/
+	z-index: 60;
+	margin-left: 100px;
+	padding-top: 20px;
+	float: left;
+}
+.navlist2{
+	width: 155px;
+	height: 190px;
+	/*background:#a3a8ab;*/
+	z-index: 60;
+	margin-left:100px;
+	padding-top: 20px;
+	float: left;
+}
+.navlist3{
+	width: 155px;
+	height: 190px;
+	/*background:#a3a8ab;*/
+	z-index: 60;
+	margin-left:50px;
+	padding-top: 20px;
+	float: left;
+}
+.navlist4{
+	width: 155px;
+	height: 190px;
+	/* background:#a3a8ab; */
+	z-index: 60;
+	margin-left:80px;
+	padding-top: 20px;
+	float: left;
+}
+.xinpin{
+	width: 65px;
+	height: 20px;
+	border: 1px solid #ff6700;
+	margin: 0 auto;
+	text-align: center;
+	color: #ff6700;
+}
+.xinimg{
+	width: 150px;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 10px;
+	border-right: 1px solid #a3a8ab;
+}
+.xinimg img{
+	display: block;
+	width: 80%;
+	height: 100%;
+	margin-left: 20px;
+}
+.xinpin-zi{
+	width: 150px;
+	height: 20px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+}
+.money{
+	width: 150px;
+	height: 20px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#ff6700 ;
+}
 .daohangzi li{
 	float: left;
 	font-size: 15px;
@@ -373,10 +468,49 @@ header{
 	margin-right: 20px;
 	line-height: 42px;
 }
-
+.xuanxiangka{
+	width: 760px;
+	height: 460px;
+	background:#fff;
+	box-sizing: border-box;
+	position: absolute;
+	left: 234px;
+	top: 0;
+	display: none;
+}
+.kalist{
+	width: 200px;
+	height: 70px;
+	background: #fff;
+	float: left;
+	margin-right: 10px;
+	margin-top: 30px;
+	line-height: 50px;
+}
+.kalist-img{
+	width: 80px;
+	float: left;
+	height: 30px;
+}
+.kalist-img img{
+	width: 100%;
+	height: 200%;
+	display: block;
+	margin-top: 10px;
+}
+span{
+	font-size: 14px;
+	margin-left: 5px;
+}
+.none{
+	display: none;
+}
+.block{
+	display: block;
+}
 /* <!-- 列表框结束 -- */
 
-/* <!-- 列表框结束 -- */
+
 
 /* <!-- 广告部分开始 --> */
 .guanggao-box{
