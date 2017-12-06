@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	.box{
+		width: 300px;
+		height: 500px;
+		background-color: blue;
+		transition: 0.2s;
+	}
+</style>
+<body>
+	<button>slideDown</button>
+	<button>slideUp</button>
+	<button>slideToggle</button>
+	<div class="box"></div>
+</body>
+</html>
+<script>
+	// 1、设置初始状态(css)
+	// 2、获取元素
+	// 	btn    3
+	// 	box    1
+	// 3、遍历btn
+	// 4、btn添加click
+	// 5、操作box：  height
+	// let btns = document.querySelectorAll('button');
+	// let box = document.querySelector('.box');	
+	// for(let i = 0;i < btns.lenght;i++){
+	// 	btns[0].addEventListener('click',function(){
+	// 		box.style.height = 500 + 'px';
+	// 		box.style.backgroundColor = 'yellow';
+	// 	})
+	// 	btns[1].addEventListener('click',function(){
+	// 		box.style.height = 0 + 'px'
+	// 	})
+	// }
+	
+
+
+	// let btns = document.querySelectorAll('button');
+	//  /通过指定的选择器返回一个集合对象/
+	// let box = document.querySelector('.box');
+	// /通过制定的选择器获取元素或者是元素集合中的元素/	
+	// // for(let i = 0;i < btns.lenght;i++){
+	//     let flag = false;
+	// 	btns[0].addEventListener('click',function(){
+	// 		box.style.cssText = "height:500px;background-color:yellow";
+	// 		flag = false;
+	// 		console.log(flag)
+	// 	})
+	// 	btns[1].addEventListener('click',function(){
+	// 		box.style.cssText = "height:0px;background-color:red";
+	// 		flag = true;
+	// 		console.log(flag)
+	// 	})
+	// 	btns[2].addEventListener('click',function(){
+	// 		if(flag ==true){
+	// 			box.style.cssText = "height:500px;background-color:yellow";
+	// 			flag = false;
+	// 		}else if(flag == false){
+	// 			box.style.cssText = "height:0px;background-color:red";
+	// 			flag = true;
+	// 		}	
+	// 	})
+</script>
+<script>
+	let buts = document.querySelectorAll('button');
+	let box = document.querySelectorAll('.box');
+</script>
